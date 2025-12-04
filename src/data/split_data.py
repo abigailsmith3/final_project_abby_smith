@@ -19,6 +19,8 @@ def split_dataset(
         df, test_size=val_frac, random_state=seed
     )
 
+    X_train, X_validation, y_train, y_validation = train_test_split(X,y, test_size=val_frac, random_state=seed)
+
 
     return train_df, val_df
 
