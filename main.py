@@ -15,7 +15,7 @@ import seaborn as sns
 
 def main() -> None:
     print("---Loading data...")
-    raw_df = load_dataset("data/raw/card_transdata.csv")
+    raw_df = load_dataset("data/raw/train.csv")
     
     # Print shape of the raw dataset
     print(f"Raw dataset shape: {raw_df.shape}")
